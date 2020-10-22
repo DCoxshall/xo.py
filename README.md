@@ -1,5 +1,5 @@
 # xo.py
-Naughts and Crosses Engine
+Minimax Naughts and Crosses Engine
 
 Be gentle dear, it's my first time on github.
 
