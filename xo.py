@@ -162,7 +162,6 @@ def minimax(isMaxTurn, maximizerMark, turn):
     if state == 'DRAW':
         return 0
     elif state == 'OVER':
-        print(winner())
         if winner() == maximizerMark:
             return 1
         else:
@@ -198,7 +197,6 @@ def make_best_move():
         if score > bestScore:
             bestScore = score
             bestMove = move
-    print(bestMove)
     return(bestMove)
 
 def boardTerminal():
@@ -234,7 +232,6 @@ while boardTerminal() == False:
         move = int(input(f"Input the position to go, {turn}: "))
 
     if turn == 'O':
-        print('here')
         move = make_best_move()
 
     takeMove(move, turn)
@@ -247,12 +244,6 @@ while boardTerminal() == False:
             turn = 'O'
         else:
             turn = 'X'
-
-
-
-
-    
-
 
 
 
