@@ -1,8 +1,6 @@
 # xo.py
 Minimax Naughts and Crosses Engine
 
-Be gentle dear, it's my first time on github.
-
 I know, this is extremely inefficient thus far, plans to implement a minimax algorithm, which is why there are so many seemingly unnecessary functions.
 
 22/10/2020:
